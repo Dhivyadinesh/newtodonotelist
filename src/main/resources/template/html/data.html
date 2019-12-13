@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Data Insert Page</title>
+</head>
+<body>
+  <div id="wrapper">
+   <div class="split left">
+    <div id="note-editor">
+      <h2 id="note-editor-title"><i>Create Your Note</i></h2>
+      <i><label>Title:</label></i>
+      <input type="text" id="title" name="title" />
+      <i><label>Item:</label></i>
+      <textarea rows="10" id="item" name="item"></textarea>
+      <i><label>Color:</label></i>
+      <select id="color" name="color">
+        <option value="red" selected>Red</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+      </select>
+      <div id="button">
+        <button id="add-btn">Create Note</button>
+        <div id="error"></div>
+      </div>
+    </div>
+   </div>
+   <div class="split right">
+    <div id="notes-section">
+      <h2><i>Notes</i></h2>
+      <ul id="notes"></ul>
+    </div>
+   </div>
+  </div>
+</body>
+</html>
